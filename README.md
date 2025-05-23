@@ -81,16 +81,16 @@ Lógicas de página e componentes são encapsuladas em custom hooks para melhor 
 
 2. Instale as dependências:
     npm install
-    # ou
+    ou
     yarn
 
 3. Rode o projeto localmente:
     npm run dev
-    # ou
+    ou
     yarn dev
     - O sistema estará disponível em http://localhost:8080
 
 4. Para rodar os testes unitários
     npm test
-    # ou
+    ou
     yarn test
