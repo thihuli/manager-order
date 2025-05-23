@@ -37,7 +37,7 @@ Com ele, você pode visualizar, criar e cancelar ordens com facilidade, tudo em 
 ---
 
 ## 📂 Estrutura de Pastas
-
+```
 trader-orders/
 ├── public/
 ├── src/
@@ -59,7 +59,7 @@ trader-orders/
 ├── .gitignore
 ├── index.html
 
----
+```
 
 ## 📂 Organização do Projeto
 O projeto segue uma arquitetura baseada em features, separando responsabilidades de forma clara.
