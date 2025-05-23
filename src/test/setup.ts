@@ -2,7 +2,6 @@
 import '@testing-library/jest-dom';
 import { vi } from 'vitest';
 
-// Mock para o matchMedia que não existe no ambiente de teste
 Object.defineProperty(window, 'matchMedia', {
   writable: true,
   value: vi.fn().mockImplementation((query) => ({
@@ -17,10 +16,8 @@ Object.defineProperty(window, 'matchMedia', {
   })),
 });
 
-// Silent console errors durante os testes
 console.error = vi.fn();
 
-// Mock para IntersectionObserver
 class MockIntersectionObserver {
   observe = vi.fn();
   unobserve = vi.fn();
